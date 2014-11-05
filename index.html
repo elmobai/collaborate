@@ -1,0 +1,36 @@
+<!--index.html-->
+<!--Kevin Maher-->
+<!--5th Nov 2014-->
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>This page is Index</title>	
+			<link rel="stylesheet" type="text/css" href="style.css" />
+			<script>
+			function myAlert(){
+				alert("Hello World!");
+			}
+			
+			function bouncer(){
+				<!--var response;-->
+				var age=prompt("What age are you?");
+				<!--alert(age);-->
+				if(age>=18){
+					alert("Welcome");
+				}
+				else{
+					alert("Go away, you are too young");
+				}
+			}
+			
+			function test(){
+				
+			}
+			</script>
+		</head>
+		
+		<body><!--onload="myAlert();"-->
+			<button onclick="myAlert();">Click me</button>
+			<button onclick="bouncer();">Bouncer</button>
+		</body>
+	</html>
